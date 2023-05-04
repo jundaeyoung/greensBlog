@@ -1,0 +1,19 @@
+server:
+  port: 8080
+  servlet:
+    encoding:
+      charset: utf-8
+      force: true
+        
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/view/
+      suffix: .jsp
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/bank?serverTimezone=Asia/Seoul
+    driver-class-name: com.mysql.cj.jdbc.Driver 
+    username: root
+    password: asd1234   
